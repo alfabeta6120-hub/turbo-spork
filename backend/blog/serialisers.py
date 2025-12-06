@@ -1,13 +1,13 @@
 from rest_framework import serializers
-from .models import Category,Category_color 
+from .models import Category,CategoryColor 
 
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = "__str__"
+        fields = "__all__"
         
-class Category_colorSerializer(serializers.ModelSerializer):
+class CategoryColorSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Category_color
-        fields = "__str__"
+        model = CategoryColor
+        fields = "__all__"
         

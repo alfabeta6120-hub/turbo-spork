@@ -1,10 +1,10 @@
 # from django.contrib import admin
-# from .models import  Category,Category_color
+# from .models import  Category,CategoryColor
 
-# @admin.registr(Category)
+# @admin.register(Category)
 # class CategoryAdmin(admin.ModelAdmin):
-#     list_display = ['name','discription','color']
+#     list_display = ['name']
     
-# @admin.registr(Category_color)
-# class Category_colorAdmin(admin.ModelAdmin):
+# @admin.register(CategoryColor)
+# class CategoryColorAdmin(admin.ModelAdmin):
 #     list_display = ['name','discription']
